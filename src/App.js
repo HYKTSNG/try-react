@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './helloWorld/helloWorld';
+import InputComponent from './imputTest/inputTest';
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+          <MyComponent />
+        </div>
+        <div>
+          <InputComponent />
+        </div>
       </header>
     </div>
   );
