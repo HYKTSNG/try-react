@@ -1,18 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
-import MyComponent from "./helloWorld/helloWorld";
-import SumCalculator from "./SumCalculator/SumCalculator";
+import HeaderSlide from "./component/HeaderSlide";
+import HelloWorld from "./component/helloWorld";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <div>
+          <HeaderSlide />
+        </div> */}
         <div>
-          <MyComponent />
-        </div>
-        <div>
-          <SumCalculator />
+          <HelloWorld />
         </div>
       </header>
     </div>
